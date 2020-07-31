@@ -1,6 +1,7 @@
 .Header {
     background: #531a69;
     color: white;
+    padding: 10px;
 }
 
 .List {
@@ -10,7 +11,7 @@
 .Item {
     display: flex;
     height: 30px;
-    padding: 20px 10px 20px 20px;
+    padding: 10px 10px 20px 20px;
     text-align: left;
 }
 
