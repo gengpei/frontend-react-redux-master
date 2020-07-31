@@ -9,27 +9,40 @@
 
 .Item {
     display: flex;
-    height: 20px;
-    padding: 20px;
-    justify-content: stretch;
+    height: 30px;
+    padding: 20px 10px 20px 20px;
+    text-align: left;
 }
 
 .HeartGray {
     color: gray;
+    margin: 4px;
 }
 
 .HeadphoneGray {
     color: gray;
+    margin: 4px;
 }
 
 .HeartRed {
     color: red;
+    margin: 4px;
 }
 
 .HeadphoneGreen {
     color: green;
+    margin: 4px;
 }
 
 .Singer {
     font-weight: bold;
+}
+
+.Title {
+    font-size: 12px;
+}
+
+.Right {
+    margin-left: auto;
+    display: flex;
 }

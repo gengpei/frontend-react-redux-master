@@ -34,6 +34,7 @@ export class PlayList extends React.Component {
                                 {item.title}
                             </div>
                         </div>
+                        <div className="Right">
                         <div className={item.favorite?'HeartRed':'HeartGray'} onClick={()=>{
                             item.favorite = !item.favorite;
                             this.setState(this.state.items);
@@ -47,6 +48,7 @@ export class PlayList extends React.Component {
                             console.log(item);
                         }}>
                         <FaHeadphones/>
+                        </div>
                         </div>
                     </div>
                 )}
