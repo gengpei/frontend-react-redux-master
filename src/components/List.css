@@ -1,0 +1,35 @@
+.Header {
+    background: #531a69;
+    color: white;
+}
+
+.List {
+    background: white;
+}
+
+.Item {
+    display: flex;
+    height: 20px;
+    padding: 20px;
+    justify-content: stretch;
+}
+
+.HeartGray {
+    color: gray;
+}
+
+.HeadphoneGray {
+    color: gray;
+}
+
+.HeartRed {
+    color: red;
+}
+
+.HeadphoneGreen {
+    color: green;
+}
+
+.Singer {
+    font-weight: bold;
+}
